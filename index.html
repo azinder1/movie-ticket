@@ -13,47 +13,46 @@
       <form class="well" id="movies">
         <div class="form-group">
           <h2>Movie Titles</h2>
-          <select class="form-control" id="movie=titles">
-            <option value="DOM">DOM Traversal</option>
-            <option value="DOM2">DOM Traversal 2: Return of the DOM </option>
-            <option value="Ruby">Ruby: The Lady in Red</option>
-            <option value="Python">Pythons on Planes</option>
+          <select class="form-control" id="movie-titles">
+            <option value="Old">DOM Traversal</option>
+            <option value="New">DOM Traversal 2: Return of the DOM </option>
+            <option value="Old">Ruby: The Lady in Red</option>
+            <option value="New">Pythons on Planes</option>
           </select>
-          <h2>Select a Time</h2>
+        </div>
+        <div class="form-group">
           <div class="radio-time">
+            <h2>Movie Time</h2>
             <label>
               <input type="radio" name="time" value="12">
               12:00PM
             </label>
+          </div>
+          <div class="radio-time">
             <label>
               <input type="radio" name="time" value="16">
               4:00PM
             </label>
+          </div>
+          <div class="radio-time">
             <label>
               <input type="radio" name="time" value="19">
-              7:00PM
-            </label>
-            <label>
-              <input type="radio" name="time" value="22">
-              10:00PM
+                7:00PM
             </label>
           </div>
-          <h2>Select your age</h2>
-          <div class="radio-age">
+          <div class="radio-time">
             <label>
-              <input type="radio" name="age" value="youth">
-              Youth: Under 18
-            </label>
-            <label>
-              <input type="radio" name="time" value="adult">
-              Adult: 18+
-            </label>
-            <label>
-              <input type="radio" name="time" value="senior">
-              Senior Citizen: 65+
+              <input type="radio" name="time" value="22">
+                10:00PM
             </label>
           </div>
         </div>
+        <div class="form-group">
+          <h2>Enter Age</h2>
+          <label for="new-age"></label>
+          <input type="number" class="form-control" id="new-age">
+        </div>
+        <button type="submit" class="btn">Checkout</button>
       </form>
     </div>
   </body>
