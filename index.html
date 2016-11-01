@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets!</title>
+  </head>
+  <body>
+    <div class="container background">
+      <h1>WELCOME TO THE ZINDERTHON THEATER!</h1>
+      <form class="well" id="movies">
+        <div class="form-group">
+          <h2>Movie Titles</h2>
+          <select class="form-control" id="movie=titles">
+            <option value="DOM">DOM Traversal</option>
+            <option value="DOM2">DOM Traversal 2: Return of the DOM </option>
+            <option value="Ruby">Ruby: The Lady in Red</option>
+            <option value="Python">Pythons on Planes</option>
+          </select>
+          <h2>Select a Time</h2>
+          <div class="radio-time">
+            <label>
+              <input type="radio" name="time" value="12">
+              12:00PM
+            </label>
+            <label>
+              <input type="radio" name="time" value="16">
+              4:00PM
+            </label>
+            <label>
+              <input type="radio" name="time" value="19">
+              7:00PM
+            </label>
+            <label>
+              <input type="radio" name="time" value="22">
+              10:00PM
+            </label>
+          </div>
+          <h2>Select your age</h2>
+          <div class="radio-age">
+            <label>
+              <input type="radio" name="age" value="youth">
+              Youth: Under 18
+            </label>
+            <label>
+              <input type="radio" name="time" value="adult">
+              Adult: 18+
+            </label>
+            <label>
+              <input type="radio" name="time" value="senior">
+              Senior Citizen: 65+
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

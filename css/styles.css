@@ -1,0 +1,10 @@
+body {
+  background-image:    url(../img/movie-curtains.jpg);
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+h2 {
+  font-size: 22px;
+}
